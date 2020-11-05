@@ -1,0 +1,62 @@
+[
+  {
+    "start": 37,
+    "end": 60,
+    "id": 1301556959120769025,
+    "url": "https://t.co/g106yvvCcO",
+    "mediaURL": "http://pbs.twimg.com/ext_tw_video_thumb/1301556959120769025/pu/img/YvrfcA5Tr7qWY47s.jpg",
+    "mediaURLHttps": "https://pbs.twimg.com/ext_tw_video_thumb/1301556959120769025/pu/img/YvrfcA5Tr7qWY47s.jpg",
+    "expandedURL": "https://twitter.com/LoveZAC_Et/status/1301558558803206145/video/1",
+    "displayURL": "pic.twitter.com/g106yvvCcO",
+    "sizes": {
+      "0": {
+        "width": 150,
+        "height": 150,
+        "resize": 101
+      },
+      "1": {
+        "width": 680,
+        "height": 464,
+        "resize": 100
+      },
+      "2": {
+        "width": 1056,
+        "height": 720,
+        "resize": 100
+      },
+      "3": {
+        "width": 1056,
+        "height": 720,
+        "resize": 100
+      }
+    },
+    "type": "video",
+    "videoAspectRatioWidth": 22,
+    "videoAspectRatioHeight": 15,
+    "videoDurationMillis": 23334,
+    "videoVariants": [
+      {
+        "bitrate": 0,
+        "contentType": "application/x-mpegURL",
+        "url": "https://video.twimg.com/ext_tw_video/1301556959120769025/pu/pl/nzHSdZi0RXWcpjIj.m3u8?tag=10"
+      },
+      {
+        "bitrate": 256000,
+        "contentType": "video/mp4",
+        "url": "https://video.twimg.com/ext_tw_video/1301556959120769025/pu/vid/396x270/kHo3g-rQxuHJxqDD.mp4?tag=10"
+      },
+      {
+        "bitrate": 2176000,
+        "contentType": "video/mp4",
+        "url": "https://video.twimg.com/ext_tw_video/1301556959120769025/pu/vid/1056x720/eWxRMGCFnt1WdyHP.mp4?tag=10"
+      },
+      {
+        "bitrate": 832000,
+        "contentType": "video/mp4",
+        "url": "https://video.twimg.com/ext_tw_video/1301556959120769025/pu/vid/528x360/GkpZsGFIZ46wcRsk.mp4?tag=10"
+      }
+    ],
+    "extAltText": "null",
+    "text": "https://t.co/g106yvvCcO"
+  }
+]
