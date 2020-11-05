@@ -1,4 +1,9 @@
 .idea/
 lib/
 out/
-src/twitter4j.properties
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+/app/src/main/resources/twitter4j.properties

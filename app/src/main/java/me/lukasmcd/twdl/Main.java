@@ -10,12 +10,25 @@ import static me.lukasmcd.twdl.URLExpressions.tweetExpression;
 
 public class Main {
 
+	public static final String VERSION = "1.0.1-Beta";
+
 	public static void main(String[] args) {
 		int port = args.length > 0 ? Integer.parseInt(args[0]) : 7000;
 		Javalin app = Javalin.create(javalinConfig -> {
 			// javalinConfig.enableDevLogging();
 		}).start(port);
 		app.post("/", Main::handlePostRequest);
+		app.get("/version", Main::version);
+	}
+
+	public static void version(Context ctx) {
+		HashMap<String, Object> result = new HashMap<>();
+
+		result.put("server", VERSION);
+		// TODO Read this from file and provide link to shortcut
+		result.put("shortcut", "1.0.0");
+
+		ctx.json(result);
 	}
 
 	public static void handlePostRequest(Context ctx) {
