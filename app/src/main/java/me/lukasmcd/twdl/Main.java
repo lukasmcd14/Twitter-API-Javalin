@@ -44,7 +44,9 @@ public class Main {
 			} else {
 				result.put("error", "Could not fetch tweet.");
 			}
-		} else {
+		}
+		// TODO Check if reddit link
+		else {
 			result.put("error", "Invalid URL.");
 		}
 

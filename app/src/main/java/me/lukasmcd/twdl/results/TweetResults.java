@@ -16,9 +16,6 @@ public class TweetResults implements PlatformResults {
 	private Type         type;
 	private boolean      fetched = false;
 
-	public TweetResults() {
-	}
-
 	@Override
 	public Type getType() {
 		return type;
